@@ -48,7 +48,7 @@ const MainTitle = styled('div')(() => ({
   fontWeight: 600,
   color: '#ffffff',
   ...(isMobile() && {
-    fontSize: 39,
+    fontSize: 32,
   }),
 }))
 const MainActions = styled('div')(() => ({
@@ -137,7 +137,8 @@ export const MainPage = () => {
       {isMobile() && (
         <MainContainer>
           <MainContent>
-            <MainSiteName>Автошкола DRIVING</MainSiteName>
+            <MainSiteName>DRIVING</MainSiteName>
+            <MainTitle>Твоя автошкола в Броварах</MainTitle>
             <MainTitle>Почніть свій шлях до безпечного та впевненого водіння!</MainTitle>
             <MainActions>
               <Button label={'Подивитись ціни'} to={Link.price} isMain />
@@ -166,7 +167,8 @@ export const MainPage = () => {
           <img src={aboutImage} alt={'about'} />
         </AboutImage>
         <AboutContent>
-          <AboutContentTitle>АВТОШКОЛА DRIVING</AboutContentTitle>
+          <AboutContentTitle>DRIVING</AboutContentTitle>
+          <AboutContentText>Твоя автошкола в Броварах</AboutContentText>
           <AboutContentText>
             Ласкаво просимо до автошколи &apos;DRIVING&apos;! Ми пропонуємо високоякісні послуги навчання, що допоможуть
             вам стати впевненим водієм на дорозі. Надаємо послуги навчання водіння для учнів будь-якого рівня

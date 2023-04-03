@@ -170,7 +170,7 @@ export const Footer: FC = () => {
         </Form>
       </FooterForm>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1076.0089909124833!2d30.781762810322974!3d50.51596117626264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4dbd104d91993%3A0x65e9122cb4e7c59d!2z0JDQstGC0L7RiNC60L7Qu9CwIERSSVZJTkcgLyDQlNGA0LDQudCy0LjQvdCz!5e0!3m2!1suk!2sua!4v1680120085467!5m2!1suk!2sua"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d782.285734184864!2d30.78028433566721!3d50.516512748171124!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97773ce0d83%3A0x4f37edb134e1631f!2z0LLRg9C70LjRhtGPINCSJ9GP0YfQtdGB0LvQsNCy0LAg0KfQvtGA0L3QvtCy0L7Qu9CwLCAyLCDQkdGA0L7QstCw0YDQuCwg0JrQuNGX0LLRgdGM0LrQsCDQvtCx0LsuLCAwNzQwMg!5e0!3m2!1suk!2sua!4v1680552966266!5m2!1suk!2sua"
         width="100%"
         height="450"
         style={{ border: 0 }}

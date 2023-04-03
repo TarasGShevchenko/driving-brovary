@@ -233,7 +233,8 @@ export const NavBar = () => {
       </NavBarContainer>
       {main && (
         <NavBarContent>
-          <MainSiteName>Автошкола DRIVING</MainSiteName>
+          <MainSiteName>DRIVING</MainSiteName>
+          <NavBarContentTitle>Твоя автошкола в Броварах</NavBarContentTitle>
           <NavBarContentTitle>Почніть свій шлях до безпечного та впевненого водіння!</NavBarContentTitle>
           <NavBarContentActions>
             <Button label={'Подивитись ціни'} to={Link.price} isMain />
