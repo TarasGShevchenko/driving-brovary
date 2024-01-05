@@ -44,6 +44,7 @@ const CardPriceTopName = styled('div')(() => ({
   height: 50,
   textTransform: 'uppercase',
   transform: 'skew(340deg)',
+  textAlign: 'center',
 }))
 const CardPriceTopPrice = styled('div')(() => ({
   display: 'flex',
